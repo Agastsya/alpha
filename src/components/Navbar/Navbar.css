@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.nav-title {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-title:hover {
+  color: #00bcd4;
+}
+
+.navbox > .title01 {
+  display: inline-block;
+}
+
+.auth .nav-title {
+  margin-left: 15px;
+}
